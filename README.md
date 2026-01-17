@@ -14,7 +14,7 @@ Projeyi yerel bilgisayarınızda çalıştırmak için aşağıdaki adımları i
 
 1. **Depoyu bilgisayarınıza indirin:**
 ```bash
-git clone [https://github.com/kullaniciadi/pdf-bot.git](https://github.com/kullaniciadi/pdf-bot.git)
+git clone https://github.com/ariacik/PDF_AI
 cd pdf-bot
 ```
 
