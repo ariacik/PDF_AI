@@ -13,10 +13,10 @@ Bu proje, kullanıcıların yüklediği PDF dosyalarını analiz eden ve içerik
 Projeyi yerel bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyin:
 
 1. **Depoyu bilgisayarınıza indirin:**
-   ```bash
-   git clone [https://github.com/kullaniciadi/pdf-bot.git](https://github.com/kullaniciadi/pdf-bot.git)
-   cd pdf-bot
-   ```
+```bash
+git clone [https://github.com/kullaniciadi/pdf-bot.git](https://github.com/kullaniciadi/pdf-bot.git)
+cd pdf-bot
+```
 
 2. **Gerekli kütüphaneleri kurun:**
 ```bash
