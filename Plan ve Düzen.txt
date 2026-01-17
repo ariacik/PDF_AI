@@ -6,7 +6,7 @@
 1. PROJE ÖZETİ
 ------------------------------------------------------------
 Proje Adı        : PDF-Bot (Qwen 2.5 Destekli Soru-Cevap)
-Geliştirici       : Can
+Geliştirici      : Can
 Temel Teknoloji  : Python, Hugging Face API, Gradio
 Hedef            : PDF belgelerinden otomatik bilgi çıkarımı ve 
                    doğal dil ile sorgulama sistemi.
@@ -24,7 +24,7 @@ Hedef            : PDF belgelerinden otomatik bilgi çıkarımı ve
 ------------------------------------------------------------
 3. DOSYA YAPISI VE DÜZENİ
 ------------------------------------------------------------
-Proje Klasörü: /PDF_Assistant
+Proje Klasörü: /PDF_AI
 ├── main.py             # Ana uygulama kodu
 ├── requirements.txt    # Gerekli kütüphane listesi
 ├── README.md           # Proje tanıtım ve kurulum rehberi
