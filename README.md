@@ -1,4 +1,3 @@
-```markdown
 # 📄 PDF-Bot: Qwen 2.5 Destekli Akıllı Asistan
 
 Bu proje, kullanıcıların yüklediği PDF dosyalarını analiz eden ve içerik hakkında sorulan sorulara yapay zeka desteğiyle yanıt veren bir web uygulamasıdır. **Qwen 2.5-7B** modelini kullanarak akademik ve teknik metinlerde yüksek doğrulukla çalışır.
@@ -17,13 +16,11 @@ Projeyi yerel bilgisayarınızda çalıştırmak için aşağıdaki adımları i
    ```bash
    git clone [https://github.com/kullaniciadi/pdf-bot.git](https://github.com/kullaniciadi/pdf-bot.git)
    cd pdf-bot
-
-```
+   ```
 
 2. **Gerekli kütüphaneleri kurun:**
 ```bash
 pip install -r requirements.txt
-
 ```
 
 
@@ -32,7 +29,6 @@ pip install -r requirements.txt
 4. **Uygulamayı başlatın:**
 ```bash
 python main.py
-
 ```
 
 
