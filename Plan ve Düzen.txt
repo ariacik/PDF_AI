@@ -1,0 +1,68 @@
+============================================================
+           PROJE PLANI: PDF-BOT AKILLI ASİSTAN
+============================================================
+
+------------------------------------------------------------
+1. PROJE ÖZETİ
+------------------------------------------------------------
+Proje Adı        : PDF-Bot (Qwen 2.5 Destekli Soru-Cevap)
+Geliştirici       : Can
+Temel Teknoloji  : Python, Hugging Face API, Gradio
+Hedef            : PDF belgelerinden otomatik bilgi çıkarımı ve 
+                   doğal dil ile sorgulama sistemi.
+
+------------------------------------------------------------
+2. TEKNİK MİMARİ (STACK)
+------------------------------------------------------------
+* Dil            : Python 3.9+
+* Kütüphaneler   : 
+    - pdfplumber     (PDF Metin Analizi)
+    - huggingface_hub (Model Bağlantısı)
+    - gradio         (Web Arayüzü)
+* Model          : Qwen/Qwen2.5-7B-Instruct (Hugging Face)
+
+------------------------------------------------------------
+3. DOSYA YAPISI VE DÜZENİ
+------------------------------------------------------------
+Proje Klasörü: /PDF_Assistant
+├── main.py             # Ana uygulama kodu
+├── requirements.txt    # Gerekli kütüphane listesi
+├── README.md           # Proje tanıtım ve kurulum rehberi
+├── .env                # API Key (Gizlilik için)
+└── example.pdf         # Test için kullanılacak makale
+
+------------------------------------------------------------
+4. UYGULAMA ADIMLARI (CHECKLIST)
+------------------------------------------------------------
+[ ] ADIM 1: Ortam Kurulumu
+    - Python yüklendi mi?
+    - 'pip install -r requirements.txt' yapıldı mı?
+
+[ ] ADIM 2: API Yapılandırması
+    - Hugging Face 'Read' Token alındı mı?
+    - Token koda veya .env dosyasına eklendi mi?
+
+[ ] ADIM 3: Metin İşleme (Extraction)
+    - pdfplumber ile metin çekme testi yapıldı mı?
+    - Boş veya resimli (OCR gereken) sayfalar için hata kontrolü eklendi mi?
+
+[ ] ADIM 4: Model Entegrasyonu
+    - Qwen 2.5 modeline ilk sorgu başarıyla gönderildi mi?
+    - Prompt düzenlemesi (Sistem talimatı) yapıldı mı?
+
+[ ] ADIM 5: Arayüz Tasarımı (Gradio)
+    - Dosya yükleme alanı hazır mı?
+    - Soru-Cevap kutuları doğru çalışıyor mu?
+    - 'gr.State' ile metin hafızada tutulabiliyor mu?
+
+------------------------------------------------------------
+5. ÖRNEK TEST SENARYOSU
+------------------------------------------------------------
+1. Dosya Yükle: "21. Yuzyilin En Buyuk Tehdidi.pdf"
+2. Çözümle     : "Metin Başarıyla Okundu" mesajını bekle.
+3. Soru Sor    : "Türkiye'yi bekleyen en büyük risk nedir?"
+4. Beklenen    : Makaledeki verilere dayalı (kuraklık vb.) cevap.
+
+============================================================
+Hazırlayan: Mehmet Can Sarı
+============================================================

@@ -1,0 +1,3 @@
+Gradio: Kullanıcının PDF yükleyebileceği ve soru sorabileceği görsel bir web arayüzü oluşturur.
+pdfplumber: PDF dosyalarının içine girip metinleri karakter bazlı olarak çeken en kararlı kütüphanelerden biridir.
+huggingface_hub (InferenceClient): Modeli bilgisayarına indirmeden, Hugging Face sunucuları üzerinden (bulut tabanlı) çalıştırmanı sağlar.

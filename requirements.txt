@@ -1,0 +1,4 @@
+gradio
+pdfplumber
+huggingface_hub
+python-dotenv
