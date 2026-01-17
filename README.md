@@ -59,16 +59,3 @@ python main.py
 
 **Geliştiren:** Can
 **Lisans:** MIT
-
-```
-
----
-
-### Nasıl Kullanılır?
-1. Bilgisayarında proje klasörünün içinde yeni bir metin belgesi oluştur.
-2. Adını `README.md` yap (sonundaki `.txt` uzantısını sildiğinden emin ol).
-3. Yukarıdaki blok içindeki tüm metni kopyalayıp içine yapıştır ve kaydet.
-
-Artık projen tam anlamıyla profesyonel bir yazılım görünümüne kavuştu! Bir sonraki adımda kodda geliştirmek istediğin bir yer var mı?
-
-```
