@@ -2,7 +2,7 @@ import gradio as gr
 import pdfplumber
 from huggingface_hub import InferenceClient
 
-HF_TOKEN = "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" 
+HF_TOKEN = "HUGGINGFACE API KEY" 
 MODEL_ID = "Qwen/Qwen2.5-7B-Instruct"
 
 client = InferenceClient(api_key=HF_TOKEN)
